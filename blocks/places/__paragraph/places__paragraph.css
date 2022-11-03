@@ -1,0 +1,11 @@
+.places__paragraph {
+  grid-area: paragraph;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  color: #FFFFFF;
+  min-width: 460px;
+  margin: 0;
+}

@@ -1,0 +1,8 @@
+.cover__link {
+  text-decoration: none;
+  background: url(../../../images/cover__background.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  position: relative;
+}

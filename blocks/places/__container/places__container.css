@@ -1,4 +1,16 @@
 .places__container {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(2, min-content);
+  grid-template-rows: repeat(2, min-content);
+  grid-template-areas: 
+  "title website"
+  "image paragraph";
+  row-gap: 48px;
+  column-gap: 40px;
+  margin: 0;
+  margin-top: 80px;
+}
+
+.places__container:first-child {
+  margin-top: 92px;
 }

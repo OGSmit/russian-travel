@@ -1,5 +1,6 @@
 .cover__background {
-  background-image: url(../../../images/cover__background.png);
+  /* background-image: url(../../../images/cover__background.png);
   background-size: cover;
-  background-position: center;
+  background-position: center; */
+  text-decoration-style: none;
 }
