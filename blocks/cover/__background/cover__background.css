@@ -1,6 +1,13 @@
 .cover__background {
-  /* background-image: url(../../../images/cover__background.png);
+  background-image: url(../../../images/cover__background.png);
   background-size: cover;
-  background-position: center; */
-  text-decoration-style: none;
+  background-position: center;
+  object-fit: cover;
+  opacity: .8;
+  z-index: -1;
+
 }
+
+/* .cover__background:hover {
+  opacity: .3;
+} */
