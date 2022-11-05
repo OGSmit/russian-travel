@@ -14,3 +14,7 @@
 .places__container:first-child {
   margin-top: 92px;
 }
+
+.places__container:last-child {
+  margin-bottom: 92px;
+}
