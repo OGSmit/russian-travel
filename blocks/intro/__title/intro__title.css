@@ -6,5 +6,29 @@
   line-height: 58px;
   color: #FFFFFF;
   margin: 0;
-  margin-top: 92px;
+  width: clamp(288px, 100%, 690px);
 }
+
+@media (max-width: 768px) {
+  .intro__title {
+    width: clamp(288px, 100%, 690px);
+  }
+}
+
+/* @media (max-width: 425px) {
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+    max-width: 288px;
+    max-height: 70px;
+  }
+}
+
+@media (max-width: 320px) {
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+    max-width: 288px;
+    max-height: 70px;
+  }
+} */

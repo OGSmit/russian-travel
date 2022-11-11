@@ -6,6 +6,38 @@
   font-size: 18px;
   line-height: 163%;
   color: #FFFFFF;
-  min-width: 460px;
   margin: 0;
+  max-width: 484px;
+}
+
+@media (max-width: 1024px) {
+  .places__paragraph {
+    max-width: 456px;
+  }
+}
+
+@media (max-width: 768px) {
+  .places__paragraph {
+    font-size: 16px;
+    line-height: 163%;
+    max-width: 352px;
+  }
+}
+
+@media (max-width: 456px) {
+  .places__paragraph {
+    font-size: 16px;
+    line-height: 163%;
+    max-width: 305px;
+  }
+}
+
+@media (max-width: 320px) {
+  .places__paragraph {
+    width: 100%;
+    font-size: 16px;
+    line-height: 163%;
+    max-width: 288px;
+    order: 4;
+  }
 }

@@ -1,6 +1,16 @@
 .footer {
   display: flex;
-  justify-content: space-between;
   flex-direction: row;
-  padding-top: 92px;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: clamp(288px, 93.7%, 1184px);
+  padding-top: 28px;
+}
+
+
+@media (max-width:650px) {
+  .footer {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
 }

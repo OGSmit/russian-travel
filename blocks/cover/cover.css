@@ -1,8 +1,24 @@
 .cover {
-  width: 1184px;
-  height: 740px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: -1;
+  width: 100%;
+  max-width: 1184px;
+  min-width: 288px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .cover {
+    max-width: 1024px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 320px) {
+  .cover {
+    max-width: 288px;
+  }
 }
