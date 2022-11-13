@@ -3,6 +3,7 @@
   flex-direction: row;
   gap: 18px;
   padding: 0;
+  margin: 0;
 }
 
 @media (max-width:650px) {
@@ -10,5 +11,11 @@
     flex-direction: column;
     justify-content: flex-start;
     grid-area: 32px;
+  }
+}
+
+@media (max-width:320px) {
+  .footer__links {
+    gap: 32px;
   }
 }

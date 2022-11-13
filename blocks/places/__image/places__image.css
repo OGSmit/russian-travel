@@ -26,5 +26,6 @@
   .places__image {
     width: 100vw;
     order: 3;
+    margin-top: 11px;
   }
 }

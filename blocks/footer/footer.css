@@ -4,7 +4,7 @@
   justify-content: space-between;
   margin: 0 auto;
   width: clamp(288px, 93.7%, 1184px);
-  padding-top: 28px;
+  padding-top: 92px;
 }
 
 
@@ -12,5 +12,12 @@
   .footer {
     flex-direction: column;
     justify-content: flex-start;
+  }
+}
+
+@media (max-width:320px) {
+  .footer {
+    padding-top: 64px;
+    max-width: 288px;
   }
 }

@@ -37,7 +37,10 @@
     width: 100%;
     font-size: 16px;
     line-height: 163%;
+    font-weight: 400;
     max-width: 288px;
     order: 4;
+    margin-top: 12px;
+    margin-left: 16px;
   }
 }

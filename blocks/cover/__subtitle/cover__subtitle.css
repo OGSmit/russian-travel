@@ -17,3 +17,12 @@
     line-height: 114%;
   }
 }
+
+@media (max-width:320px) {
+  .cover__subtitle {
+    max-width: 288px;
+    line-height: 114%;
+    font-weight: 300;
+    margin-top: 16px;
+  }
+}

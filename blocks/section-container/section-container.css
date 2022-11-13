@@ -2,3 +2,9 @@
   margin: 0 auto;
   width: clamp(288px, 93.7%, 1184px);
 }
+
+@media (max-width:769px) {
+  .section-container {
+    width: 100vw;
+  }
+}

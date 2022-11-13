@@ -1,8 +1,8 @@
 .cover__link {
-  min-height: 740px;
   background-image: url(../../../images/cover__background.png);
   background-size: cover;
   background-repeat: no-repeat;
+  object-fit: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -28,10 +28,18 @@
 .cover__link:hover::before {
   opacity: .8;
 }
+/* 
+без min-height ссылка сжимаеться по мин контенту , единственый способ что я нашел  */
+
+@media (max-width:2024px) {
+  .cover__link {
+    min-height: 740px;
+  }
+} 
 
 @media (max-width:1024px) {
   .cover__link {
-    min-height: 480px;
+    min-height: 640px;
   }
 }
 

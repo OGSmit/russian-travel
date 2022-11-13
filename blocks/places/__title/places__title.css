@@ -21,16 +21,17 @@
   .places__title {
     font-size: 42px;
     line-height: 110%;
-    max-width: 340px;
+    max-width: 300px;
   }
 }
 
 @media (max-width: 320px) {
   .places__title {
     font-size: 32px;
-    line-height: 109%;
+    line-height: 111%;
     max-width: 288px;
     order: 1;
     align-self: flex-start;
+    margin-left: 16px;
   }
 }
