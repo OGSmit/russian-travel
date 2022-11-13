@@ -7,7 +7,12 @@
   line-height: 163%;
   color: #FFFFFF;
   margin: 0;
+  padding: 0;
   max-width: 484px;
+  gap: 26px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 @media (max-width: 1024px) {
@@ -43,4 +48,9 @@
     margin-top: 12px;
     margin-left: 16px;
   }
+}
+
+.test {
+  margin: 0;
+  padding: 0;
 }
