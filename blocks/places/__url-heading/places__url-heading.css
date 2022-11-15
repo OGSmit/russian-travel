@@ -8,7 +8,7 @@
   color: #AAAAAA;
 }
 
-@media (max-width:320px) {
+@media (max-width:456px) {
   .places__url-heading {
     margin-bottom: 10px;
   }

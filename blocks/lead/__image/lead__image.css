@@ -1,8 +1,9 @@
 .lead__image {
+  display: block;
   margin: 0;
   margin: 64px auto 0;
-  object-fit: cover;
-  max-width: 984px;
+  object-fit: contain;
+  /* max-width: 984px; */
   /* padding-bottom: 100%; */
 }
 
@@ -10,7 +11,8 @@
   .lead__image {
     /* height: 100%; */
     margin: 56px auto 0;
-    max-width: 928px;
+    width: clamp(740px, 80%, 928px);
+    align-self: center;
   }
 }
 

@@ -1,17 +1,16 @@
 .lead__title {
-  margin: 0;
   margin: 0 auto;
-  width: clamp(666px, 56.25%, 720px);
+  /* width: clamp(666px, 56.25%, 720px); */
   font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
-  font-size: 96px;
+  font-size: 40px;
   line-height: 105%;
   text-align: center;
   color: #FFFFFF;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
   .lead__title {
     width: clamp(666px, 70.5%, 720px);
     font-size: 96px;
@@ -19,7 +18,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .lead__title {
     width: clamp(399px, 93.7%, 720px);
     margin: 0 auto;
@@ -28,11 +27,12 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) {
   .lead__title {
+    min-width: 288px;
+    max-width: 720px;
     margin: 0 auto;
-    font-size: 40px;
-    line-height: 105%;
-    max-width: 288px;
+    /* font-size: 40px;
+    line-height: 105%; */
   }
 }

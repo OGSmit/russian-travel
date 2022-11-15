@@ -43,7 +43,7 @@
   .places__container {
     max-width: 928px;
     margin: 80px auto;
-    grid-template-columns: repeat(2, minmax(440px, 456px));
+    grid-template-columns: repeat(2, minmax(340px, 1fr));
     grid-template-rows: minmax(76px, max-content);
     row-gap: 48px;
     column-gap: 28px;
@@ -58,7 +58,7 @@
 @media (max-width: 768px) {
   .places__container {
     display: grid;
-    grid-template-columns: minmax(340px, 352px);
+    grid-template-columns: minmax(340px, 1fr);
     grid-template-rows: minmax(92px, max-content);
     column-gap: 13px;
     row-gap: 48px;
@@ -69,12 +69,26 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
+  .places__container {
+    display: grid;
+    grid-template-columns: minmax(min-content, 1fr);
+    grid-template-rows: minmax(92px, max-content);
+    column-gap: 13px;
+    row-gap: 48px;
+  }
+
+  .places__container:first-child {
+    margin-top: 88px;
+  }
+}
+
+@media (max-width: 456px) {
   .places__container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin: 50px auto;
-    max-width: 320px;
     padding: 0;
     gap: 20px;
   }

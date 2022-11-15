@@ -2,24 +2,24 @@
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
-  line-height: 36px;
+  font-size: 16px;
+  line-height: 125%;
   text-align: center;
   color: #FFFFFF;
   margin: 0;
   margin: 32px auto 0;
-  width: clamp(288px, 56.25%, 640px);
+  /* width: clamp(288px, 56.25%, 640px); */
 }
 
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
   .lead__subtitle {
     margin: 32px auto 0;
     width: clamp(666px, 70.5%, 640px);
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .lead__subtitle {
     max-width: 640px;
     font-size: 30px;
@@ -28,14 +28,14 @@
   }
 }
 
-@media (max-width: 320px) {
+/* @media (min-width: 320px) {
   .lead__subtitle {
     max-width: 288px;
     font-size: 16px;
     line-height: 125%;
     margin: 29px auto 0;
   }
-}
+} */
 
 /* @media (max-width: 425px) {
   .lead__subtitle {

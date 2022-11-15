@@ -12,7 +12,7 @@
 
 @media (max-width: 2024px) {
   .places {
-    min-width: 984px;
+    max-width: 984px;
     margin: 0 auto 0;
   }
 }

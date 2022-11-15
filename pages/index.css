@@ -45,12 +45,3 @@
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__author/footer__author.css);
-
-.test {
-  opacity: 1;
-  transition: opacity 0.5s linear;
-}
-
-.test:hover {
-  opacity: .5;
-}

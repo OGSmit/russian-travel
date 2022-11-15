@@ -1,4 +1,12 @@
 .photo-grid {
+  /* display: flex;
+  flex-direction: column; */
+  max-width: 1184px;
+  display: grid;
+
+}
+
+/* .photo-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, 284px);
   grid-template-rows: repeat(auto-fill, 213px);
@@ -7,7 +15,7 @@
   margin: 0 auto;
   width: clamp(288px, 93.7%, 1184px);
   place-items: center;
-}
+} */
 
 /* @media (max-width: 1280px) {
   .photo-grid {
@@ -20,7 +28,7 @@
   }
 } */
 
-@media (max-width: 1279.9px) {
+/* @media (max-width: 1279.9px) {
   .photo-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, 300px);
@@ -29,57 +37,60 @@
     margin: 0 auto;
     width: clamp(288px, 93.7%, 928px);
   }
-}
+} */
 
-
-
-@media (max-width: 990px) {
+@media (max-width: 4280px) {
   .photo-grid {
     display: grid;
-    padding-top: 88px;
-    grid-template-columns: repeat(2, 352px);
-    grid-template-rows: repeat(auto-fit, 264px);
-    gap: 16px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     margin: 0 auto;
-    width: clamp(288px, 93.7%, 928px);
+    gap: 16px;
+    max-width: 1184px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    margin: 0 auto;
+    gap: 16px;
+    max-width: 1184px;
   }
 }
 
 @media (max-width: 768px) {
   .photo-grid {
-    margin: 0 auto;
-    max-width: 720px;
     display: grid;
-    grid-template-columns: repeat(autofill, 352px);
-    grid-template-rows: repeat(autofill, 264px);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    margin: 0 auto;
+    width: 96vw;
+    gap: 16px;
+    /* max-width: 720px; */
   }
 }
 
-/* @media (max-width: 420px) {
+@media (max-width: 456px) {
   .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     margin: 0 auto;
-    min-width: 98vw;
-    display: flex;
-    flex-direction: column;
-    padding-top: 88px;
+    width: 96vw;
     gap: 16px;
   }
-} */
+}
 
 @media (max-width: 320px) {
   .photo-grid {
-    /* display: grid;
-    padding-top: 88px;
-    grid-template-columns: repeat(auto-fit, 288px);
-    grid-template-rows: repeat(auto-fit, 216px);
-    gap: 16px;
-    margin: 0 auto; */
     display: flex;
     flex-direction: column;
     min-width: 288px;
     gap: 12px;
     padding-top: 64px;
-
   }
 }
 
