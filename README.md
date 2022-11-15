@@ -8,5 +8,5 @@
 
 *Планы по доработке = отзыв моего код-ревьювера, как будет обратная связь будет план
 
-*[ссылка на github pages]()
+*[ссылка на github pages](https://ogsmit.github.io/russian-travel/)
 
