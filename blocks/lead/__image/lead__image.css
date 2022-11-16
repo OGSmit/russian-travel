@@ -23,7 +23,7 @@
 
 @media (max-width: 768px) {
   .lead__image {
-    max-width: 100vw;
+    max-width: 99%;
     align-self: center;
   }
 }

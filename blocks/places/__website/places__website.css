@@ -1,6 +1,7 @@
 .places__website {
   grid-area: website;
-  align-self: end;
+  align-self: start;
+  order: 2;
 }
 
 @media (max-width:456px) {

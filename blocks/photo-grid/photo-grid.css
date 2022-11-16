@@ -53,7 +53,7 @@
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 510px) {
   .photo-grid {
     display: flex;
     flex-direction: column;

@@ -12,7 +12,7 @@
   justify-self: center;
 }
 
-@media (max-width: 518px) {
+@media (max-width: 560px) {
   .cover__title {
     max-width: 400px;
     min-width: 288px;

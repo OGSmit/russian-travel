@@ -83,7 +83,7 @@
   }
 }
 
-@media (max-width: 456px) {
+@media (max-width: 510px) {
   .places__container {
     display: flex;
     flex-direction: column;
