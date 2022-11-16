@@ -2,7 +2,8 @@
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  width: clamp(288px, 93.7%, 1184px);
+  min-width: 288px;
+  max-width: 1184px;
   padding-top: 56px;
 }
 
@@ -13,9 +14,9 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .lead {
-    width: clamp(320px, 100%, 768px);
+    width: clamp(320px, 99%, 768px);
     align-self: center;
   }
 }

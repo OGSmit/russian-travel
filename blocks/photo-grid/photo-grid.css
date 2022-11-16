@@ -1,45 +1,13 @@
 .photo-grid {
   /* display: flex;
   flex-direction: column; */
+  width: 100vw;
   max-width: 1184px;
   display: grid;
-
 }
 
-/* .photo-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 284px);
-  grid-template-rows: repeat(auto-fill, 213px);
-  gap: 16px;
-  padding-top: 92px;
-  margin: 0 auto;
-  width: clamp(288px, 93.7%, 1184px);
-  place-items: center;
-} */
 
-/* @media (max-width: 1280px) {
-  .photo-grid {
-    display: grid;
-    margin: 0 auto;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    gap: 14px;
-    width: clamp(288px, 93.7%, 928px);
-  }
-} */
-
-/* @media (max-width: 1279.9px) {
-  .photo-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 300px);
-    grid-template-rows: repeat(auto-fill, 225px);
-    gap: 14px;
-    margin: 0 auto;
-    width: clamp(288px, 93.7%, 928px);
-  }
-} */
-
-@media (max-width: 4280px) {
+@media (max-width: 4000px) {
   .photo-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -47,11 +15,10 @@
     margin: 0 auto;
     gap: 16px;
     padding-top: 92px;
-    max-width: 1184px;
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .photo-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -59,11 +26,11 @@
     margin: 0 auto;
     gap: 16px;
     padding-top: 88px;
-    max-width: 1184px;
+    max-width: 928px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 950px) {
   .photo-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -71,22 +38,22 @@
     margin: 0 auto;
     width: 96vw;
     gap: 16px;
-    /* max-width: 720px; */
+    max-width: calc(100vw - 50px);
   }
 }
 
-@media (max-width: 456px) {
+@media (max-width: 719px) {
   .photo-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
     margin: 0 auto;
-    width: 96vw;
     gap: 16px;
+    max-width: calc(100vw - 10px);
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 450px) {
   .photo-grid {
     display: flex;
     flex-direction: column;
