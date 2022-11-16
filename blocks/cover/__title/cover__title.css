@@ -1,5 +1,4 @@
 .cover__title {
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -20,10 +19,4 @@
     line-height: 109%;
   }
   
-}
-
-@media (max-width:320px) {
-  .cover__title {
-    
-  }
 }

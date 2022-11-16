@@ -1,5 +1,4 @@
 .header__lang-link {
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -8,8 +7,6 @@
   color: #FFFFFF;
   text-decoration: none;
   margin: 0;
-  max-width: 30px;
-  min-height: 28px;
 }
 
 .header__lang-link:first-child {
@@ -20,6 +17,5 @@
 @media (max-width: 320px) {
   .header__lang-link {
     font-size: 18px;
-    min-width: 22px;
   }
 }

@@ -1,6 +1,5 @@
 .places__paragraph {
   grid-area: paragraph;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -25,7 +24,6 @@
 @media (max-width: 768px) {
   .places__paragraph {
     font-size: 16px;
-    line-height: 163%;
     max-width: 352px;
   }
 }
@@ -33,7 +31,6 @@
 @media (max-width: 456px) {
   .places__paragraph {
     font-size: 16px;
-    line-height: 163%;
     max-width: 305px;
   }
 }
@@ -42,16 +39,10 @@
   .places__paragraph {
     width: 100%;
     font-size: 16px;
-    line-height: 163%;
     font-weight: 400;
     max-width: 288px;
     order: 4;
     margin-top: 12px;
     margin-left: 16px;
   }
-}
-
-.test {
-  margin: 0;
-  padding: 0;
 }

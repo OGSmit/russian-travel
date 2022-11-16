@@ -10,7 +10,7 @@
   .footer__links {
     flex-direction: column;
     justify-content: flex-start;
-    grid-area: 32px;
+    gap: 32px;
   }
 }
 

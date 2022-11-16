@@ -8,14 +8,12 @@
 
 @media (max-width: 1024px) {
   .places__image {
-    width: 100%;
     max-width: 440px;
   }
 }
 
 @media (max-width: 768px) {
   .places__image {
-    width: 100%;
     max-width: 340px;
   }
 }
@@ -25,7 +23,6 @@
 
 @media (max-width: 456px) {
   .places__image {
-    width: 100vw;
     order: 3;
     margin-top: 11px;
   }

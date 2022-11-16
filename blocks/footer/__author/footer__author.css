@@ -1,5 +1,4 @@
 .footer__author {
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -11,7 +10,6 @@
 
 @media (max-width: 425px) {
   .footer__author {
-    max-height: 14px;
     font-size: 14px;
     line-height: 100%;
     margin-top: 48px;

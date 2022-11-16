@@ -1,7 +1,5 @@
 .lead__title {
   margin: 0 auto;
-  /* width: clamp(666px, 56.25%, 720px); */
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
   font-size: 40px;
@@ -21,7 +19,6 @@
 @media (min-width: 768px) {
   .lead__title {
     width: clamp(399px, 93.7%, 720px);
-    margin: 0 auto;
     font-size: 96px;
     line-height: 105%;
   }
@@ -31,8 +28,5 @@
   .lead__title {
     min-width: 288px;
     max-width: 720px;
-    margin: 0 auto;
-    /* font-size: 40px;
-    line-height: 105%; */
   }
 }

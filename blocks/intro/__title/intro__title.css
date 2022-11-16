@@ -1,6 +1,5 @@
 .intro__title {
   margin: 0;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
   font-size: 32px;
@@ -14,23 +13,10 @@
   }
 }
 
-@media (min-width: 1024px) {
-  .intro__title {
-    /* min-width: 690px; */
-  }
-}
-
 @media (min-width: 768px) {
   .intro__title {
     width: 100%;
     font-size: 54px;
     line-height: 107%;
-  }
-}
-
-@media (min-width: 320px) {
-  .intro__title {
-    /* max-width: 288px;
-    max-height: 70px; */
   }
 }
