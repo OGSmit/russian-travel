@@ -14,3 +14,7 @@
     line-height: 100%;
   }
 }
+
+.footer__link:hover {
+  opacity: .5;
+}
