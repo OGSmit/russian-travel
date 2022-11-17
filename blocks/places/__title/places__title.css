@@ -21,20 +21,24 @@
   .places__title {
     font-size: 42px;
     line-height: 110%;
-    max-width: 99vw;
+    max-width: 330px;
+    align-self: end;
   }
 }
 
+@media (max-width: 600px) {
+  .places__title {
+    align-self: start;
+    max-width: 100%;
+  }
+}
 
-
-@media (max-width: 456px) {
+@media (max-width: 320px) {
   .places__title {
     font-size: 32px;
     line-height: 111%;
     max-width: 288px;
     margin: 0 auto;
-    /* order: 1; */
-    align-self: flex-start;
     margin-left: 16px;
   }
 }

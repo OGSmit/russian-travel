@@ -1,13 +1,17 @@
 .places__website {
   grid-area: website;
-  align-self: start;
+  align-self: end;
   order: 2;
+}
+
+@media (max-width:600px) {
+  .places__website {
+    align-self: start;
+  }
 }
 
 @media (max-width:456px) {
   .places__website {
-    order: 2;
-    align-self: flex-start;
     margin-left: 16px;
   }
 }

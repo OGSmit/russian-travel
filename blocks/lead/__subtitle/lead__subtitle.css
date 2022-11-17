@@ -24,3 +24,9 @@
     margin-top: 29px;
   }
 }
+
+@media (min-width: 320px) {
+  .lead__subtitle {
+    margin-top: 19px;
+  }
+}

@@ -20,3 +20,9 @@
     align-self: center;
   }
 }
+
+@media (max-width: 320px) {
+  .lead {
+    padding-top: 44px;
+  }
+}

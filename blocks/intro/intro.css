@@ -4,20 +4,15 @@
   margin: 0;
   margin-left: 92px;
   padding: 0;
-}
-
-@media (max-width: 2024px) {
-  .intro {
-    max-width: 690px;
-    padding-top: 92px;
-    padding-left: 8px;
-  }
+  padding-top: 83px;
+  padding-left: 8px;
+  max-width: 690px;
 }
 
 @media (max-width: 1024px) {
   .intro {
-    margin-left: 16px;
-    padding-top: 92px;
+    margin-left: 39px;
+    padding-top: 75px;
     min-width: clamp(288px, 93.7%, 690px);
   }
 }
@@ -25,6 +20,8 @@
 @media (max-width: 768px) {
   .intro {
     min-width: clamp(288px, 93.7%, 720px);
+    margin-left: 15px;
+    padding-top: 80px;
   }
 }
 
@@ -32,6 +29,6 @@
   .intro {
     max-width: 288px;
     align-self: center;
-    padding-top: 64px;
+    padding-top: 48px;
   }
 }

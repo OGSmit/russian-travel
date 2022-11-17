@@ -6,20 +6,13 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
   color: #FFFFFF;
-  margin: 8px 0 0 100px;
   width: 158px;
 }
 
-@media (max-width: 1024px) {
-  .lead__caption {
-    margin-bottom: 17px;
-  }
-}
-
-
 @media (max-width: 768px) {
   .lead__caption {
-    margin-bottom: 24px;
+    margin-left: 20px;
+    margin-top: 8px;
   }
 }
 

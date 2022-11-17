@@ -6,6 +6,7 @@
   text-align: right;
   color: #FFFFFF;
   align-self: flex-start;
+  margin: 0;
 }
 
 @media (max-width: 425px) {

@@ -3,28 +3,26 @@
   margin: 0;
   margin: 64px auto 0;
   object-fit: cover;
+  max-width: 984px;
 }
 
 @media (max-width: 1280px) {
   .lead__image {
     margin-top: 56px;
-    width: clamp(928px, 80%, 984px);
     align-self: center;
+    max-width: 928px;
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 970px) {
   .lead__image {
-    margin-top: 56px;
-    width: clamp(740px, 80%, 928px);
-    align-self: center;
+    width: 99%;
   }
 }
 
 @media (max-width: 768px) {
   .lead__image {
-    max-width: 100%;
-    align-self: center;
+    width: 100%;
   }
 }
 

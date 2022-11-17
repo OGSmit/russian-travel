@@ -2,17 +2,11 @@
   width: 100vw;
   max-width: 1184px;
   display: grid;
-}
-
-
-@media (max-width: 4000px) {
-  .photo-grid {
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    margin: 0 auto;
-    gap: 16px;
-    padding-top: 92px;
-  }
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin: 0 auto;
+  gap: 16px;
+  padding-top: 92px;
 }
 
 @media (max-width: 1200px) {
