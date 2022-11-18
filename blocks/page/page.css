@@ -1,9 +1,5 @@
 .page {
   background-color: #2A2C2F;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
   font-family: 'Inter', Arial, sans-serif;
   min-width: 200px;
   text-rendering: optimizeLegibility; 
