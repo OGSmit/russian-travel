@@ -9,7 +9,7 @@
   margin: 0;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 740px) {
   .footer__author {
     font-size: 14px;
     line-height: 100%;
