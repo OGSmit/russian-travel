@@ -41,9 +41,9 @@
     display: grid;
     grid-template-columns: minmax(min-content, max-content);
     grid-template-rows: minmax(92px, max-content);
-    column-gap: 27px;
+    column-gap: 28px;
     row-gap: 48px;
-    margin-top: 28px;
+    margin-top: 29px;
   }
 
   .places__container:first-child {
@@ -54,6 +54,7 @@
 
   .places__container:last-child {
     margin-top: 24px;
+    margin-bottom: 90px;
   }
 }
 
