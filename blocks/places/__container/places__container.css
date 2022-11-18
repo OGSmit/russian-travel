@@ -70,6 +70,12 @@
   .places__container:first-child {
     margin-top: 64px;
   }
+
+  .places__container:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 320px) {
