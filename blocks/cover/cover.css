@@ -5,12 +5,6 @@
   margin: 0 auto;
 }
 
-@media (max-width: 1024px) {
-  .cover {
-    width: 100%;
-  }
-}
-
 @media (max-width: 320px) {
   .cover {
     max-width: 320px;

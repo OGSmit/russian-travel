@@ -11,6 +11,7 @@
 @media (max-width:1024px) {
   .footer {
     width: clamp(288px, 93.7%, 928px);
+    letter-spacing: 0.005em;
   }
 }
 

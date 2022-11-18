@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: flex-start;
   order: 4;
-  gap: 26px;
+  gap: 27px;
 }
 
 @media (max-width:768px) {
@@ -16,6 +16,6 @@
 @media (max-width:320px) {
   .places__paragraph-container {
     max-width: 720px;
-    gap: 16px;
+    gap: 12px;
   }
 }

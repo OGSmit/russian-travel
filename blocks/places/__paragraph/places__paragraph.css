@@ -4,7 +4,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 162%;
+  line-height: 161%;
   color: #FFFFFF;
   max-width: 484px;
   gap: 26px;
@@ -37,5 +37,6 @@
     order: 4;
     margin-top: 12px;
     margin-left: 16px;
+    line-height: 163%;
   }
 }
