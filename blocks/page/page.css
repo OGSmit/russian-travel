@@ -5,5 +5,10 @@
   justify-content: center;
   align-content: center;
   font-family: 'Inter', Arial, sans-serif;
-  min-width: 320px;
+  min-width: 200px;
+  text-rendering: optimizeLegibility; 
+  -webkit-font-smoothing: antialiased; 
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
 }

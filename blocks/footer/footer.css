@@ -1,12 +1,23 @@
 .footer {
+  padding-top: 92px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin: 0 auto;
-  width: clamp(288px, 93.7%, 928px);
-  padding-top: 92px;
+  width: clamp(288px, 93.7%, 1184px);
 }
 
+@media (max-width:1024px) {
+  .footer {
+    width: clamp(288px, 93.7%, 928px);
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding-top: 90px;
+  }
+}
 
 @media (max-width:650px) {
   .footer {

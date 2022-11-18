@@ -2,29 +2,22 @@
   margin: 0 auto;
   font-style: normal;
   font-weight: 900;
-  font-size: 40px;
+  font-size: 96px;
   line-height: 105%;
   text-align: center;
   color: #FFFFFF;
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 767px) {
   .lead__title {
-    width: clamp(666px, 70.5%, 720px);
-    font-size: 96px;
-    line-height: 104%;
+    min-width: 288px;
+    max-width: 720px;
+    font-size: 40px;
+    line-height: 110%;
   }
 }
 
-@media (min-width: 768px) {
-  .lead__title {
-    width: clamp(399px, 93.7%, 720px);
-    font-size: 96px;
-    line-height: 105%;
-  }
-}
-
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .lead__title {
     min-width: 288px;
     max-width: 720px;

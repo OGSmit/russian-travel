@@ -7,13 +7,7 @@
 
 @media (max-width: 1024px) {
   .cover {
-    max-width: 1024px;
-  }
-}
-
-@media (max-width: 768px) {
-  .cover {
-    width: 99%;
+    width: 100%;
   }
 }
 

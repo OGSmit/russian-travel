@@ -11,8 +11,9 @@
 
 @media (max-width: 1024px) {
   .intro {
-    margin-left: 39px;
-    padding-top: 75px;
+    margin-left: 0;
+    padding-top: 82px;
+    padding-left: 48px;
     min-width: clamp(288px, 93.7%, 690px);
   }
 }
@@ -22,13 +23,21 @@
     min-width: clamp(288px, 93.7%, 720px);
     margin-left: 15px;
     padding-top: 80px;
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .intro {
+    width: 90%;
+    align-self: center;
+    padding-top: 48px;
+    padding-left: 0;
   }
 }
 
 @media (max-width: 320px) {
   .intro {
     max-width: 288px;
-    align-self: center;
-    padding-top: 48px;
   }
 }

@@ -5,9 +5,10 @@
   grid-template-areas: 
   "title website"
   "image paragraph";
-  column-gap: 20px;
+  column-gap: 17px;
   row-gap: 48px;
   margin: 0 auto;
+  margin-top: 80px;
   max-width: 984px;
 }
 
@@ -26,7 +27,6 @@
     grid-template-rows: minmax(76px, max-content);
     row-gap: 48px;
     column-gap: 18px;
-    margin-top: 80px;
   }
 
   .places__container:first-child {
@@ -34,25 +34,25 @@
   }
 }
 
-
 @media (max-width: 768px) {
   .places__container {
-    width: clamp(500px, 95%, 720px);
+    width: 100%;
     display: grid;
     grid-template-columns: minmax(min-content, max-content);
     grid-template-rows: minmax(92px, max-content);
-    column-gap: 20px;
+    column-gap: 27px;
     row-gap: 48px;
-    margin-top: 53px;
+    margin-top: 26px;
   }
 
   .places__container:first-child {
-    margin-top: 88px;
-    column-gap: 13px;
+    margin-top: 92px;
+    column-gap: 28px;
+    row-gap: 45px;
   }
 
   .places__container:last-child {
-    margin-top: 22px;
+    margin-top: 27px;
   }
 }
 
@@ -64,8 +64,7 @@
     margin: 50px auto;
     padding: 0;
     gap: 20px;
-    width: clamp(288px, 97%, 580px);
-    row-gap: 20px;
+    width: clamp(200px, 97%, 580px);
   }
 
   .places__container:first-child {
@@ -76,5 +75,14 @@
 @media (max-width: 320px) {
   .places__container {
     width: 100vw;
+  }
+
+  .places__container:first-child {
+    row-gap: 20px;
+    margin-top: 64px;
+  }
+
+  .places__container:last-child {
+    margin-bottom: 66px;
   }
 }

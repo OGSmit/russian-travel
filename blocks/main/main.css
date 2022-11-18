@@ -5,15 +5,3 @@
   flex-direction: column;
   max-width: 1184px;
 }
-
-@media (max-width:1024px) {
-  .main {
-    max-width: 928px;
-  }
-}
-
-@media (max-width:768px) {
-  .main {
-    width: 100%;
-  }
-}
