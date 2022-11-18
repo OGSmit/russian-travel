@@ -43,7 +43,7 @@
     grid-template-rows: minmax(92px, max-content);
     column-gap: 28px;
     row-gap: 48px;
-    margin-top: 29px;
+    margin-top: 27px;
   }
 
   .places__container:first-child {
